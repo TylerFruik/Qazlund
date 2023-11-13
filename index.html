@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Quazlund</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Qazlund!</h1>
+  </header>
+  <div class="wrapper">
+    <div class="card">
+      <!--  * #main-menu -->
+      <!-- #region -->
+      <div id="main-menu">
+        <h1 id="top-message">Main Menu</h1>
+        <div class="menu-btns">
+          <button id="new-character" class="btn">New Character</button>
+          <button id="load-character" class="btn">Load Character</button>
+        </div>
+      </div>
+      <!-- #ENDREGION -->
+      <!--  * #new-character-menu -->
+      <!-- #region -->
+      <div id="new-character-menu">
+        <h1 id="top-message">New Character</h1>
+        <div>
+          <h2>Select your class</h2>
+          <div id="class-selection">
+            <button id="class-select-warrior" class="btn" value="warrior">Warrior</button>
+            <button id="class-select-ranger" class="btn" value="ranger">Ranger</button>
+            <button id="class-select-thief" class="btn" value="thief">Thief</button>
+            <button id="class-select-barbarian" class="btn" value="barbarian">Barbarian</button>
+            <button id="class-select-wizard" class="btn" value="wizard">Wizard</button>
+            <button id="class-select-druid" class="btn" value="druid">Druid</button>
+          </div>
+          <h2>Name your character</h2>
+            <input id="set-character-name" type="text" value="Name">
+        </div>
+        <div>
+          <h2>Shall we begin?</h2>
+          <div>
+            <button id="character-creation-yes" class="btn">Yes</button>
+            <button id="character-creation-no" class="btn">No</button>
+          </div>
+        </div>
+      </div>
+      <!-- #endregion -->
+      <!--  * #load-character-menu -->
+      <!-- #region -->
+      <div id="load-character-menu">
+        <h1 id="top-message">Load Character</h1>
+      </div>
+      <!-- #endregion -->
+    </div>
+    <button id="quit-to-main-menu" class="btn">Main Menu</button>
+  </div>
+  <script src="./assets/script.js"></script>
+</body>
+</html>
+
+<!-- * menu screen shell
+<div id="menu-name">
+  <h1 id="top-message">Menu Title</h1>
+</div> -->
